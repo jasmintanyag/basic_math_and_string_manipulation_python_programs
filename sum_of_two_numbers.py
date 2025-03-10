@@ -2,7 +2,7 @@
 
 '''
 ask user to input 2 numbers
-print the sum of two numbers'
+print the sum of two numbers
 '''
 
 num1 = float(input("Enter a number: "))
