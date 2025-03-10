@@ -4,3 +4,4 @@
 num1 = float(input("Enter a number: "))
 num2 = float(input("Enter another number: "))
 # print the result of first num raised to second num
+print(num1 ** num2)
