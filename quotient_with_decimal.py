@@ -8,4 +8,5 @@ num2 = float(input("Enter another number: "))
 if num2 == 0:
     print("Cannot divide by zero.")
 # print the quotient of two numbers
-print(num1 / num2)
+else:
+    print(num1 / num2)
