@@ -7,6 +7,8 @@ for i in range(10):
 # ask the user to enter a number 10 times (since the range is 10)
 # convert the input to a float
     num = float(input(f"Enter a number ({i+1}): "))
-# check if the number is not divisible by 21
+# check if the number is not divisible by 2
 # if it is not divisible, add 1 to odd count 
+    if num % 2 != 0:
+        odd_count += 1
 # print the odd count
