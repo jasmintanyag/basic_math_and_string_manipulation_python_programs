@@ -8,6 +8,6 @@ total_sum = 0
 for i in range(10):
     num = float(input(f"Enter a number ({i+1}):  "))
 # add the number to total
-    num += total_sum
+    total_sum += num
 # print the total sum
 print(total_sum)
