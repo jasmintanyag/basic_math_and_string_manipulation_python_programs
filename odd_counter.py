@@ -12,3 +12,4 @@ for i in range(10):
     if num % 2 != 0:
         odd_count += 1
 # print the odd count
+print(odd_count)
