@@ -4,3 +4,5 @@
 for num in range(100):
 # check if even number
 # print all even numbers
+    if num % 2 == 0:
+        print(num)
