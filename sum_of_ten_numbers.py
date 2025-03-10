@@ -4,6 +4,8 @@
 total_sum = 0
 # loop from 1 to 10
 # ask the user to enter a number 10 times (since the range is 10)
+for i in range(10):
+    num = input(f"Enter a number ({i+1}):  ")
 # convert the input to a float
 # add the number to total
 # print the total sum
