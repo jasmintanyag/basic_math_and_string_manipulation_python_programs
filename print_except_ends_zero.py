@@ -5,4 +5,4 @@ for num in range(101):
 # check if the number is not divisible by 10
 # if not, print the numbers
     if num % 10 != 0:
-        print(num)
+        print(num, end= " ")
