@@ -5,4 +5,4 @@ for num in range(101):
 # check if even number
 # print all even numbers
     if num % 2 == 0:
-        print(num)
+        print(num, end = " ")
