@@ -17,5 +17,7 @@ while True:
     except ValueError:
         break
 # identify the number that has most duplicates
+if num_count:
+    most_frequent = max(num_count, key=num_count.get) #use this parameter to identify the mos frequent num
 # print the most frequent num
 # else, print "there's no valid number entered"
