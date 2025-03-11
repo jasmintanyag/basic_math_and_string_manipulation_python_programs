@@ -12,3 +12,4 @@ while True:
     except ValueError:
         break
 # print the lowest number that has been entered
+print(min(list_nums))
