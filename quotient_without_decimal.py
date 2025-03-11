@@ -9,5 +9,5 @@ if num2 == 0:
     print("Cannot divide by zero.")
 # else, perform a floor division
 else:
-    print(num1 // num2)
 # convert the result into integer
+    print(int(num1 // num2))
