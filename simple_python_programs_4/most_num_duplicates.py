@@ -8,6 +8,8 @@ while True:
         num = float(input("Enter a number: "))
 # count how often the number occur
 # add 1 to count if the number already exists
+        if num in num_count:
+            num_count[num] += 1
 # initialize count to 1 if it's the first appearance
 # stop the program when there's invalid input
 # identify the number that has most duplicates
