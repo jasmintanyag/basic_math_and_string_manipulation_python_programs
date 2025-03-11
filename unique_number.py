@@ -12,7 +12,7 @@ for i in range(10):
     num_list.append(entered_num)
 # check how many times the number appear
 for entered_num in num_list:
-    num_counts[entered_num] = num_counts.get(entered_num, 0)
+    num_counts[entered_num] = num_counts.get(entered_num, 0) + 1
 # check if the number appeared only once
 for entered_num in num_list:
     if num_counts[entered_num] == 1:
