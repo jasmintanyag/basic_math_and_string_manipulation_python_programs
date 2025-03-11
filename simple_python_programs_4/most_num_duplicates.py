@@ -15,12 +15,13 @@ while True:
             num_count[num] = 1
 # stop the program when there's invalid input
     except ValueError:
+        print("Invalid input!")
         break
 # identify the number that has most duplicates
 if num_count:
     most_frequent = max(num_count, key=num_count.get) #use this parameter to identify the mos frequent num
 # print the most frequent num
-    print(most_frequent)
+    print(f"The number with most duplicate is: {most_frequent} (Frequency: {num_count[most_frequent]})")
 # else, print "there's no valid number entered"
 else:
     print("No valid numbers were entered.")
