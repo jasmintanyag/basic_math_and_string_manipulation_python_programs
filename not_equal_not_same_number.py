@@ -9,4 +9,4 @@ print "Not Equal" if the 2 numbers are not the same
 num1 = float(input("Enter a number: "))
 num2 = float(input("Enter another number: "))
 if num1 != num2:
-    print("Not Equal")
+    print("The two numbers are Not Equal")
