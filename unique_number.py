@@ -9,6 +9,7 @@ num_counts = {}     # dictionary to store number counts
 for i in range(10):
     entered_num = int(input(f"Enter number ({i+1}): "))
 # add the entered number into the list
+    num_list.append(entered_num)
 # check how many times the number appear
 # check if the number appeared only once
 # if appeared only once, add it to the list of unique numbers
