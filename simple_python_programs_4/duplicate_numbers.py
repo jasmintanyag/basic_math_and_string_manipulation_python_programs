@@ -19,5 +19,8 @@ for i in range(10):
         else:
             num_counts[num] = 1
 # check the numbers that have duplicates
+for num in num_counts:
     # if the number appears more than once, add it to duplicate list
+    if num_counts[num] > 1:
+        duplicate_nums.append(num)
 # print the number/s that have duplicate/s
