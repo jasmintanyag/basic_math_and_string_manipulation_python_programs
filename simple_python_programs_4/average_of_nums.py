@@ -3,6 +3,9 @@
 # initialize variable to store user input, (empty list)
 list_nums = []
 # create infinite loop to continuously ask user to input numbers
+while True:
+    try:
+        num = float(input("Enter a number: "))
 # add the entered number to the list
 # if user entered an invalid input, stop the program
 # check if there's at least 1 num entered
