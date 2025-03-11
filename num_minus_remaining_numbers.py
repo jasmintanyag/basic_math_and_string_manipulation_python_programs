@@ -1,6 +1,7 @@
 # Prog06: Create a program that ask user to input 10 numbers. Print the result of the first number minus all of the remaining numbers.
 
 # initialize total difference to 0 before the loop
+total_diff = 0
 # loop from 1 to 10
 # ask the user to enter a number 10 times (since the range is 10)
 # convert the input to a float
