@@ -11,4 +11,4 @@ for i in range(10):
     if num % 2 == 0:
 # if it is divisible, add 1 to odd count
         even_count += 1
-# print the odd count
+# print the even count
