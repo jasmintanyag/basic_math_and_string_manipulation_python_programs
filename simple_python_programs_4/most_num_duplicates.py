@@ -20,4 +20,5 @@ while True:
 if num_count:
     most_frequent = max(num_count, key=num_count.get) #use this parameter to identify the mos frequent num
 # print the most frequent num
+    print(most_frequent)
 # else, print "there's no valid number entered"
