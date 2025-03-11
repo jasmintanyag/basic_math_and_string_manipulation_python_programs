@@ -3,6 +3,7 @@
 # initialize even count to 0 before the loop
 even_count = 0
 # loop from 1 to 10
+for i in range(10):
 # ask the user to enter a number 10 times (since the range is 10)
 # convert the input to a float
 # check if the number is divisible by 2
