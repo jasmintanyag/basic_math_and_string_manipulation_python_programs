@@ -19,3 +19,4 @@ for entered_num in num_list:
 # if appeared only once, add it to the list of unique numbers
         unique_nums.append(entered_num)
 # print the unique number/s
+print(unique_nums)
