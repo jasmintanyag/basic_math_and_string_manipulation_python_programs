@@ -16,6 +16,8 @@ for i in range(10):
         if num in num_counts:
             num_counts[num] += 1
 # initialize count to 1 if it's a new number
+        else:
+            num_counts[num] = 1
 # check the numbers that have duplicates
     # if the number appears more than once, add it to duplicate list
 # print the number/s that have duplicate/s
