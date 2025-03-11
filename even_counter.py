@@ -15,4 +15,4 @@ for i in range(10):
     num = float(input(f"Enter a number ({i+1}): "))
     if num % 2 == 0:
         even_count += 1
-print(f"The number of even numbers are: {even_count}")
+print(f"There are {even_count} even number/s.")
