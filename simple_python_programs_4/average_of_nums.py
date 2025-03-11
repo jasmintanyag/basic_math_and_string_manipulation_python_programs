@@ -12,6 +12,8 @@ while True:
     except ValueError:
         break
 # check if there's at least 1 num entered
+    if list_nums:
 # calculate average
+        average = sum(list_nums) / len(list_nums)
 # print average
 # if no valid input, print "no valid numbers entered"
