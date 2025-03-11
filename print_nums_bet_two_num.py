@@ -7,3 +7,4 @@ num2 = int(input("Enter another number: "))
 # create loop to get the numbers between 1st num and 2nd num
 for numbers in range(num1 + 1, num2):
 # print the numbers in between
+    print(numbers)
