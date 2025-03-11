@@ -10,3 +10,4 @@ for i in range(10):
     if num not in entered_num:
         entered_num.append(num)
 # print the numbers
+print(entered_num)
