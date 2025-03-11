@@ -12,3 +12,4 @@ while True:
     except ValueError:
         break
 # print the highest number that has been entered, using max()
+print(max(list_num))
