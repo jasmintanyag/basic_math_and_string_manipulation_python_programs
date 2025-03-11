@@ -12,4 +12,5 @@ while True:
     except ValueError:
         break
 # sort the entered numbers from lowest to highest using sort() function
+list_nums.sort()
 # display the numbers from highest to lowest
