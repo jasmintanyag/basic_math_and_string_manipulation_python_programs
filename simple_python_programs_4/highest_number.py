@@ -7,5 +7,6 @@ while True:
     try:
         num = float(input("Enter a number: "))
 # add the entered number to the list
+        list_num.append(num)
 # if user entered an invalid input, stop the program
 # print the highest number that has been entered, using max()
