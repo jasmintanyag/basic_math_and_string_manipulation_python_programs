@@ -11,4 +11,6 @@ for i in range(10):
     if num == 0:
         total_diff += num
 # else, subract the number from total difference
+    else:
+        total_diff -= num
 # print the total difference
