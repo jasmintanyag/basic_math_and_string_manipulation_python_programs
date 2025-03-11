@@ -15,7 +15,7 @@ for entered_num in num_list:
     num_counts[entered_num] = num_counts.get(entered_num, 0)
 # check if the number appeared only once
 for entered_num in num_list:
-    num_counts[entered_num] == 1:
+    if num_counts[entered_num] == 1:
 # if appeared only once, add it to the list of unique numbers
         unique_nums.append(entered_num)
 # print the unique number/s
