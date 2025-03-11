@@ -10,13 +10,14 @@ while True:
         list_nums.append(num)
 # if user entered an invalid input, stop the program
     except ValueError:
+        print("Invalid input! Calculating average.....")
         break
 # check if there's at least 1 num entered
 if list_nums:
 # calculate average
     average = sum(list_nums) / len(list_nums)
 # print average
-    print(average)
+    print("The average of the entered numbers is: ", average)
 # if no valid input, print "no valid numbers entered"
 else:
     print("No valid numbers entered.")
