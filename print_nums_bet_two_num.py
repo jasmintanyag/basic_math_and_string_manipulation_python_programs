@@ -8,3 +8,5 @@ num2 = int(input("Enter another number: "))
 for numbers in range(num1 + 1, num2):
 # print the numbers in between
     print(numbers)
+
+# The numbers between does not print if num1 is larger than num2
