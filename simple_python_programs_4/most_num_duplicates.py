@@ -11,6 +11,8 @@ while True:
         if num in num_count:
             num_count[num] += 1
 # initialize count to 1 if it's the first appearance
+        else:
+            num_count[num] = 1
 # stop the program when there's invalid input
 # identify the number that has most duplicates
 # print the most frequent num
