@@ -10,5 +10,8 @@ while True:
     # if yes, print "Duplicate"
         if num in list_nums:
             print("Duplicate")
-    # else, print "Unique"
+    # else, add on the list and print "Unique"
+        else:
+            list_nums.append(num)
+            print("Unique")
 # if the user input is invalid, stop the program
