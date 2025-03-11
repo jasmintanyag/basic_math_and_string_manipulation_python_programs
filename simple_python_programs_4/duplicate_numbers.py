@@ -24,4 +24,4 @@ for num in num_counts:
     if num_counts[num] > 1:
         duplicate_nums.append(num)
 # print the number/s that have duplicate/s
-print(duplicate_nums)
+print("The number/s that have duplicate/s: ", duplicate_nums)
