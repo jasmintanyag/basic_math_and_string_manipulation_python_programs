@@ -9,5 +9,7 @@ while True:
 # add the entered number to the list
         list_nums.append(num)
 # if user entered an invalid input, stop the program
+    except ValueError:
+        break
 # sort the entered numbers from lowest to highest using sort() function
 # display the numbers from highest to lowest
