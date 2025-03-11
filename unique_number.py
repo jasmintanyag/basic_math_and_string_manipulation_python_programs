@@ -10,13 +10,16 @@ for i in range(10):
     entered_num = int(input(f"Enter number ({i+1}): "))
 # add the entered number into the list
     num_list.append(entered_num)
+    
 # check how many times the number appear
 for entered_num in num_list:
     num_counts[entered_num] = num_counts.get(entered_num, 0) + 1
+
 # check if the number appeared only once
 for entered_num in num_list:
     if num_counts[entered_num] == 1:
 # if appeared only once, add it to the list of unique numbers
         unique_nums.append(entered_num)
+        
 # print the unique number/s
-print(unique_nums)
+print("Unique number/s: ", unique_nums)
