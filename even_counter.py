@@ -9,5 +9,6 @@ for i in range(10):
     num = float(input(f"Enter a number ({i+1}): "))
 # check if the number is divisible by 2
     if num % 2 == 0:
-# if it is divisible, add 1 to odd count 
+# if it is divisible, add 1 to odd count
+        even_count += 1
 # print the odd count
