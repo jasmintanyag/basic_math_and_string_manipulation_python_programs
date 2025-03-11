@@ -13,6 +13,8 @@ for i in range(10):
 # count how many times the number has been entered
     for num in num_list:
 # add 1 if the number already exists
+        if num in num_counts:
+            num_counts[num] += 1
 # initialize count to 1 if it's a new number
 # check the numbers that have duplicates
     # if the number appears more than once, add it to duplicate list
