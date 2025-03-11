@@ -2,7 +2,7 @@
 
 '''
 ask user to input 2 numbers
-# print the smaller number by using built-in function min()
+print the smaller number by using built-in function min()
 '''
 
 num1 = float(input("Enter a number: "))
