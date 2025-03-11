@@ -4,3 +4,4 @@
 num1 = float(input("Enter a number: "))
 num2 = float(input("Enter another number: "))
 # print the remainder of first num and second num
+print(num1 % num2)
