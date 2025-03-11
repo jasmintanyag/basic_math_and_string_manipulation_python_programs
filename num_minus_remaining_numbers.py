@@ -8,7 +8,7 @@ for i in range(10):
 # convert the input to a float
     num = float(input(f"Enter a number ({i+1}):  "))
 # if it's the first number, add it to total difference
-    if num == 0:
+    if i == 0:
         total_diff += num
 # else, subract the number from total difference
     else:
