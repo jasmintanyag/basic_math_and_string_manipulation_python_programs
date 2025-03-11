@@ -10,6 +10,7 @@ while True:
         list_num.append(num)
 # if user entered an invalid input, stop the program
     except ValueError:
+        print("Invalid input :(")
         break
 # print the highest number that has been entered, using max()
-print(max(list_num))
+print("The HIGHEST entered number is: ", max(list_num))
