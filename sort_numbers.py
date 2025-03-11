@@ -5,8 +5,9 @@ list_nums = []
 # create infinite loop to continuously ask user to input numbers
 while True:
     try:
-        number = float(input("Enter a number: "))
+        num = float(input("Enter a number: "))
 # add the entered number to the list
+        list_nums.append(num)
 # if user entered an invalid input, stop the program
 # sort the entered numbers from lowest to highest using sort() function
 # display the numbers from highest to lowest
