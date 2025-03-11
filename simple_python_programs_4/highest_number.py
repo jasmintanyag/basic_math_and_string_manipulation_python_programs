@@ -9,4 +9,6 @@ while True:
 # add the entered number to the list
         list_num.append(num)
 # if user entered an invalid input, stop the program
+    except ValueError:
+        break
 # print the highest number that has been entered, using max()
