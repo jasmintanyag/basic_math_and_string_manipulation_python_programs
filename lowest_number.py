@@ -10,6 +10,7 @@ while True:
         list_nums.append(num)
 # if user entered an invalid input, stop the program
     except ValueError:
+        print("Invalid input.")
         break
 # print the lowest number that has been entered
-print(min(list_nums))
+print("The LOWEST entered number is: ", min(list_nums))
