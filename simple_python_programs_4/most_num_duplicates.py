@@ -14,6 +14,8 @@ while True:
         else:
             num_count[num] = 1
 # stop the program when there's invalid input
+    except ValueError:
+        break
 # identify the number that has most duplicates
 # print the most frequent num
 # else, print "there's no valid number entered"
