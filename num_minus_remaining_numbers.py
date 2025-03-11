@@ -14,3 +14,4 @@ for i in range(10):
     else:
         total_diff -= num
 # print the total difference
+print(total_diff)
