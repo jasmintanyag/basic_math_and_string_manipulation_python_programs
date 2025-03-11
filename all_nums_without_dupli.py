@@ -3,8 +3,8 @@
 # initialize variable to store user input
 entered_num = []
 # ask user to input 10 numbers using for loop
-for i in range(10):
-    num = input(f"Enter number ({i+1}): ")
 # convert into integer
+for i in range(10):
+    num = int(input(f"Enter number ({i+1}): "))
 # check if num is in the list, if not, add it
 # print the numbers
