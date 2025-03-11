@@ -8,3 +8,4 @@ while num <= 100:
     print(num)
 # increase num by 2 to get the next odd numbers
 # repeat until num exceeds 100
+    num += 2
