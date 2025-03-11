@@ -12,3 +12,4 @@ for i in range(10):
 # if it is divisible, add 1 to odd count
         even_count += 1
 # print the even count
+print(even_count)
