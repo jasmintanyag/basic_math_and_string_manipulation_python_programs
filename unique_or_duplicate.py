@@ -15,3 +15,5 @@ while True:
             list_nums.append(num)
             print("Unique")
 # if the user input is invalid, stop the program
+    except ValueError:
+        break
