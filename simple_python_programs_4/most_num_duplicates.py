@@ -3,6 +3,9 @@
 # initialize variable to store how often the number repeats
 num_count = {}
 # create infinite loop to continuously ask user to input numbers
+while True:
+    try:
+        num = float(input("Enter a number: "))
 # count how often the number occur
 # add 1 to count if the number already exists
 # initialize count to 1 if it's the first appearance
