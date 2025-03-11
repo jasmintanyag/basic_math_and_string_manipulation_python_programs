@@ -15,4 +15,4 @@ for i in range(10):
     num = float(input(f"Enter a number ({i+1}): "))
     if num % 2 != 0:
         odd_count += 1
-print(f"The number of odds are: {odd_count}")
+print(f"There are {odd_count} odd number/s.")
