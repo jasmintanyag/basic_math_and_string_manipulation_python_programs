@@ -8,5 +8,7 @@ while True:
         num = float(input("Enter a number: "))
 # check if the user already entered the same number
     # if yes, print "Duplicate"
+        if num in list_nums:
+            print("Duplicate")
     # else, print "Unique"
 # if the user input is invalid, stop the program
