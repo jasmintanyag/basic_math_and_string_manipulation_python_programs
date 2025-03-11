@@ -10,8 +10,9 @@ while  True:
         list_nums.append(num)
 # if user entered an invalid input, stop the program
     except ValueError:
+        print("Sorting the numbers.....")
         break
 # sort the entered numbers from highest to  lowest using sort(reverse) function
 list_nums.sort(reverse=True)
 # display the numbers from highest to  lowest
-print(list_nums)
+print("Sorted Numbers (highest to lowest): ", list_nums)
