@@ -9,7 +9,7 @@ while True:
 # check if the user already entered the same number
     # if yes, print "Duplicate"
         if num in list_nums:
-            print(f"It is a DUPLICATE. {num} is already inputted.")
+            print(f"It is a DUPLICATE, {num} is already inputted.")
     # else, add on the list and print "Unique"
         else:
             list_nums.append(num)
