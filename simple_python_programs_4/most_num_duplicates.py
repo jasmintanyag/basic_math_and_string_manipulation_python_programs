@@ -22,3 +22,5 @@ if num_count:
 # print the most frequent num
     print(most_frequent)
 # else, print "there's no valid number entered"
+else:
+    print("No valid numbers were entered.")
