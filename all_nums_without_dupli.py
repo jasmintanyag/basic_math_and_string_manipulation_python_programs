@@ -3,6 +3,7 @@
 # initialize variable to store user input
 entered_num = []
 # ask user to input 10 numbers using for loop
+for i in range(10):
 # convert into integer
 # check if num is in the list, if not, add it
 # print the numbers
