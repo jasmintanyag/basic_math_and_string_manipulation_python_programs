@@ -3,4 +3,5 @@
 # create a for loop, from numbers 0 to 100
 for num in range(101):
 # check if the number is not divisible by 5
+    if num % 5 != 0:
 # if not, print the numbers
