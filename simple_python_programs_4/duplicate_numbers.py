@@ -11,6 +11,7 @@ for i in range(10):
 # add the entered number into the list
     num_list.append(entered_num)
 # count how many times the number has been entered
+    for num in num_list:
 # add 1 if the number already exists
 # initialize count to 1 if it's a new number
 # check the numbers that have duplicates
