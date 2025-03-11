@@ -18,3 +18,5 @@ if list_nums:
 # print average
     print(average)
 # if no valid input, print "no valid numbers entered"
+else:
+    print("No valid numbers entered.")
