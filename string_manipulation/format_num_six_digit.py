@@ -2,6 +2,7 @@
 
 # ask user to input a number from 0-1000
 # convert input to integer
-num = int(input("Enter a number (0-1000): "))
 # print the number in a 6 digit format, adding zero's at beginning
-print(f"{num:06}")
+
+num = int(input("Enter a number (0-1000): "))
+print(f"Formatted number: {num:06}")
