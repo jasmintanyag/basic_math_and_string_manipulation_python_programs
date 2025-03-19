@@ -3,3 +3,4 @@
 # ask user input their full name
 name = input("Enter your full name: ")
 # print number of characters in input
+print(len(name.replace(" ", "")))
