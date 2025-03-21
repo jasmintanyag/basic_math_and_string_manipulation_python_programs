@@ -27,6 +27,9 @@ for count in num_count.values():
     if count > max_frequency:
         max_frequency = count
 # find the number(s) with that maximum frequency
+for num, count in num_count.items():
 # if a number's frequency match to the max frequency, add it to most frequent numbers
-
+    if count == max_frequency:
+        most_freqnt_nums.append(num)
+        
 # print the most frequent number/s
