@@ -22,8 +22,10 @@ while True:
 max_frequency = 0
 most_freqnt_nums = []
 # identify the number that has most duplicates
+for count in num_count.values():
 # if count is greater than max frequency, update max frequency to that value
-
+    if count > max_frequency:
+        max_frequency = count
 # find the number(s) with that maximum frequency
 # if a number's frequency match to the max frequency, add it to most frequent numbers
 
