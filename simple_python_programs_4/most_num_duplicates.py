@@ -22,10 +22,8 @@ num_count = {}
 while True:
     try:
         num = float(input("Enter a number: "))
-
         if num in num_count:
             num_count[num] += 1
-
         else:
             num_count[num] = 1
     except ValueError:
