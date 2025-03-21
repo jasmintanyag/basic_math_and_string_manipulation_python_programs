@@ -19,6 +19,8 @@ while True:
         break
 
 # initialize max frequency and most frequent number
+max_frequency = 0
+most_freqnt_nums = []
 # identify the number that has most duplicates
 # if count is greater than max frequency, update max frequency to that value
 
