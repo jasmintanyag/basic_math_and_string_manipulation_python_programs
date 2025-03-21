@@ -17,11 +17,12 @@ while True:
     except ValueError:
         print("Invalid input!")
         break
+
+# initialize max frequency and most frequent number
 # identify the number that has most duplicates
-if num_count:
-    most_frequent = max(num_count, key=num_count.get) #use this parameter to identify the mos frequent num
-# print the most frequent num
-    print(f"The number with most duplicate is: {most_frequent} (Frequency: {num_count[most_frequent]})")
-# else, print "there's no valid number entered"
-else:
-    print("No valid numbers were entered.")
+# if count is greater than max frequency, update max frequency to that value
+
+# find the number(s) with that maximum frequency
+# if a number's frequency match to the max frequency, add it to most frequent numbers
+
+# print the most frequent number/s
