@@ -42,4 +42,4 @@ for num, count in num_count.items():
     if count == max_frequency:
         most_freqnt_nums.append(num)
 
-print(most_freqnt_nums)
+print(f"The most frequent number(s): {most_freqnt_nums} (Frequency: {max_frequency})")
