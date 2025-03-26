@@ -10,3 +10,4 @@ while i < len(user_inp) and user_inp[i] == " ":
 # move to the next character until a non-space character is found
     i += 1
 # print starting from index i
+print("Result: ", user_inp[1:])
