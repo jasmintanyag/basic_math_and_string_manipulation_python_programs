@@ -3,6 +3,7 @@
 # ask user to input a string
 user_inp =  input("Enter a string: ")
 # initialize a counter
+i = 0
 # create while-loop
 # if i is less than the length of s, and the character at i is space, 
 # move to the next character until a non-space character is found
