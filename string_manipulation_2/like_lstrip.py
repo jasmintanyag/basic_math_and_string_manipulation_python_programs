@@ -7,8 +7,8 @@
 # move to the next character until a non-space character is found
 # print starting from index i
 
-text =  input("Enter a string: ")
-i = 0
-while i < len(text) and text[i] == ' ':
-    i += 1
-print("Result: ", text[1:])
+text = input("Enter a string: ")  
+i = 0  
+while i < len(text) and text[i] == ' ':  
+    i += 1  
+print("Result:", text[i:])
