@@ -6,5 +6,7 @@ user_inp =  input("Enter a string: ")
 i = 0
 # create while-loop
 # if i is less than the length of s, and the character at i is space, 
+while i < len(user_inp) and user_inp[i] == " ":
 # move to the next character until a non-space character is found
+    i += 1
 # print starting from index i
