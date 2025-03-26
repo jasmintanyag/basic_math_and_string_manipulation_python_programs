@@ -11,4 +11,4 @@ text = input("Enter a string: ")
 i = 0  
 while i < len(text) and text[i] == ' ':  
     i += 1  
-print("Result:", text[i:])
+print("Result: ", text[i:])
