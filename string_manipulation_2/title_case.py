@@ -3,7 +3,9 @@
 # ask user to input a text/string
 text = input("Enter a text: ")
 # split the string in words
-words = text.split()
+words_from_text = text.split()
 # convert every first character of words to uppercase, while the rest of characters remain lowercase
+for word in words_from_text:
+    title_cased = [word[:1].upper() + word[1:].lower()]
 # join the words into a string
 # print the result
