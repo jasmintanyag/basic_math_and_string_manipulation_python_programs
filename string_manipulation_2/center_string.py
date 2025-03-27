@@ -4,6 +4,7 @@
 text = input("Enter a text: ")
 # ask again for their targeted length
 target_length = int(input("What is your targeted length? "))
+# if the string entered is shorter than their targeted length, add spaces to the right side
 # calculate the total spaces needed to center the text
 # divide spaces equally to left and right
 # print the string in the center
