@@ -16,3 +16,4 @@ for char in text:
     else:
         reverse_case += char
 # print the swapcase version
+print(reverse_case)
