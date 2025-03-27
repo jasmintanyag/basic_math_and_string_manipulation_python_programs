@@ -11,4 +11,5 @@ if len(text) < target_length:
 # divide spaces equally to left and right
     left_space = total_space // 2
     right_space = total_space - left_space
+# add spaces to left and right side
 # print the string in the center
