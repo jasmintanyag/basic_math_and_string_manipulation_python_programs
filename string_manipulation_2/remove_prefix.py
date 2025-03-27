@@ -9,3 +9,5 @@ if text.startswith(prefix):
 # if yes, remove it by slicing from the length of prefix onwards
     print("Removed Prefix Result: ", text[len(prefix):])
 # if not, print the original text 
+else:
+    print(text)
