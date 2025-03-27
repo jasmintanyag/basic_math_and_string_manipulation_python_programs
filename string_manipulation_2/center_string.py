@@ -12,4 +12,5 @@ if len(text) < target_length:
     left_space = total_space // 2
     right_space = total_space - left_space
 # add spaces to left and right side
+    text = " " * left_space + text + " " * right_space
 # print the string in the center
