@@ -8,4 +8,5 @@ words_from_text = text.split()
 for word in words_from_text:
     title_cased = [word[:1].upper() + word[1:].lower()]
 # join the words into a string
+title_cased = " ".join(title_cased)
 # print the result
