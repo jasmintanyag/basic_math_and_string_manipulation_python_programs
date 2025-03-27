@@ -9,5 +9,6 @@ for char in text:
 # checks if char is an uppercase letter using ASCII value comparison
     if 'A' <= char <= 'Z':
 # if uppercase, convert to lowercase by adding 32 to its ASCII value
+        lowercase_result += chr(ord(char) + 32)
 # else, if already in lowercase, remain unchanged
 # print the lowercase version
