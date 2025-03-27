@@ -12,3 +12,4 @@ for char in text:
         all_uppercase = False
         break
 # print True if all characters are uppercase; false if not
+print(all_uppercase)
