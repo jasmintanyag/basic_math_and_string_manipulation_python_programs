@@ -14,3 +14,4 @@ for char in text:
     else:
         lowercase_result += char
 # print the lowercase version
+print(lowercase_result)
