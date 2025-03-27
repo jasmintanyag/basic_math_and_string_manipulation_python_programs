@@ -5,6 +5,7 @@ text = input("Enter a text: ")
 # ask again to input the suffix they want to check
 suffix = input("Enter suffix to check: ")
 # checks if the extracted suffix is equal to the inputted suffix
+if text[-len(suffix): ] == suffix:
 # if yes, the condition is true
 # else, it is false
 # print the result
