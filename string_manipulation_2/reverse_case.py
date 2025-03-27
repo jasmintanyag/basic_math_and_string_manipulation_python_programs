@@ -10,7 +10,9 @@ for char in text:
     if 'a' <= char <= 'z':
         reverse_case += chr(ord(char) - 32)
 # checks if char is an lowercase, then convert it to uppercase
-    if 'A' <= char <= 'Z':
+    elif 'A' <= char <= 'Z':
         reverse_case += chr(ord(char) + 32)
 # else, remain unchange
+    else:
+        reverse_case += char
 # print the swapcase version
