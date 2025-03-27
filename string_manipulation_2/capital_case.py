@@ -12,4 +12,6 @@ if text:
         if 'A' <= char <= 'Z':
             capital_case += chr(ord(char) + 32)
 # else, remain unchange
+        else:
+            capital_case += char
 # print the result
