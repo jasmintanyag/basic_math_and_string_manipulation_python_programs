@@ -8,5 +8,8 @@ if text:
     if 'a' <= first_character <= 'z':
         first_character = chr(ord(first_character) - 32)
 # for the rest of the characters; if uppercase, convert it to lowercase
+    for char in text[1:]:
+        if 'A' <= char <= 'Z':
+            capital_case += chr(ord(char) + 32)
 # else, remain unchange
 # print the result
