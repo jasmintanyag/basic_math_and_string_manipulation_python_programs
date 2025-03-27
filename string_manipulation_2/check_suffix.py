@@ -12,3 +12,4 @@ if text[-len(suffix): ] == suffix:
 else:
     matched_to_suffix = False
 # print the result
+print(matched_to_suffix)
