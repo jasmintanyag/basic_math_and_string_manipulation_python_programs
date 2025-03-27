@@ -3,6 +3,7 @@
 # ask user to input a text/string
 text = input("Enter a text: ")
 # split the string in words
+words = text.split()
 # convert every first character of words to uppercase, while the rest of characters remain lowercase
 # join the words into a string
 # print the result
