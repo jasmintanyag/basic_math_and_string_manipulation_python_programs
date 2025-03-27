@@ -9,4 +9,6 @@ if len(text) < target_length:
 # calculate the total spaces needed to center the text
     total_space = target_length - len(text)
 # divide spaces equally to left and right
+    left_space = total_space // 2
+    right_space = total_space - left_space
 # print the string in the center
