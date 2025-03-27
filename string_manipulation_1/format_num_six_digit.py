@@ -5,4 +5,4 @@
 # print the number in a 6 digit format, adding zero's at beginning
 
 num = int(input("Enter a number (0-1000): "))
-print(f"Formatted number: {num:06}")
+print(f"Formatted number: {str(num).zfill(6)}")
