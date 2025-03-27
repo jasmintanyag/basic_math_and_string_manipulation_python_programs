@@ -5,5 +5,7 @@ text = input("Enter a text: ")
 # ask again to input the prefix they want to remove
 prefix = input("Enter the prefix you want to remove: ")
 # check if the text/string they inputted starts with the prefix
+if text.startswith(prefix):
 # if yes, remove it by slicing from the length of prefix onwards
+    print("Removed Prefix Result: ", text[len(prefix):])
 # if not, print the original text 
