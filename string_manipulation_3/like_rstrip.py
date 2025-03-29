@@ -5,4 +5,6 @@ text = input("Enter a string: ")
 # initialize a counter from the end of the string
 i = len(text) - 1  
 # create while-loop to find the last non-space character
+while i >= 0 and text[i] == ' ':
+    i -= 1
 # print the string without the spaces
