@@ -3,6 +3,7 @@
 # ask user to input a text/string
 text = input("Enter a text: ")
 # initialize empty string to store the converted result
+uppercase_result = ""
 # create for-loop in every character in text/string
 # checks if char is an lowercase letter using ASCII value comparison
 # if lowercase, convert to uppercase by subtracting 32 to its ASCII value
