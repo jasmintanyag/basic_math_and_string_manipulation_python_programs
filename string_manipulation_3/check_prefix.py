@@ -12,3 +12,4 @@ if text[:len(prefix)] == prefix:
 else:
     matched_to_prefix = False
 # print the result
+print("Prefix matched: ", matched_to_prefix)
