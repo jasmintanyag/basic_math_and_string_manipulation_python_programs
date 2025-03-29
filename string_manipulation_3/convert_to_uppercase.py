@@ -11,4 +11,6 @@ for char in text:
 # if lowercase, convert to uppercase by subtracting 32 to its ASCII value
         uppercase_result += chr(ord(char) - 32)
 # else, if already in uppercase, remain unchanged
+    else:
+        uppercase_result += char
 # print the uppercase version
