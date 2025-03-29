@@ -5,6 +5,7 @@ text = input("Enter a text: ")
 # ask again to input the prefix they want to check
 prefix = input("Enter prefix to check: ")
 # checks if the extracted prefix is equal to the inputted prefix
+if text[:len(prefix)] == prefix:
 # if yes, the condition is true
 # else, it is false
 # print the result
