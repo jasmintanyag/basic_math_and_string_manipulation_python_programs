@@ -7,5 +7,8 @@ prefix = input("Enter prefix to check: ")
 # checks if the extracted prefix is equal to the inputted prefix
 if text[:len(prefix)] == prefix:
 # if yes, the condition is true
+    matched_to_prefix = True
 # else, it is false
+else:
+    matched_to_prefix = False
 # print the result
