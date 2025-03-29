@@ -1,6 +1,7 @@
 # Prog04. islower() check if all characters of the string is on lower case. Create a program that do the same functionality without using islower() function.
 
 # ask user to input a text/string
+text = input("Enter a text: ")
 # assume that the text is all lowercase letters initially
 # create for-loop in every character in text/string
 # check if char is in uppercase
