@@ -3,6 +3,7 @@
 # ask user to input a text/string
 text = input("Enter a text: ")
 # assume that the text is all lowercase letters initially
+all_lowercase = True
 # create for-loop in every character in text/string
 # check if char is in uppercase
 # if at least one uppercase letter is found, set it to false then exit the loop
