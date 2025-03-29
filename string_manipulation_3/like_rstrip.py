@@ -8,3 +8,4 @@ i = len(text) - 1
 while i >= 0 and text[i] == ' ':
     i -= 1
 # print the string without the spaces
+print(text[:i+1])
