@@ -9,3 +9,5 @@ if text.endswith(suffix):
 # if yes, remove it by slicing from the length of suffix
     print("Removed Prefix Result: ", text[:-len(suffix):])
 # if not, print the original text 
+else:
+    print(text)
