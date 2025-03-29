@@ -9,4 +9,6 @@ for char in text:
 # check if char is in uppercase
     if 'A' <= char <= 'Z':
 # if at least one uppercase letter is found, set it to false then exit the loop
+        all_lowercase = False
+        break
 # print True if all characters are lowercase; false if not
