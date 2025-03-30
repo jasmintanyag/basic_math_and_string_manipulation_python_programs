@@ -10,3 +10,6 @@
 nums = input("Enter a number(s): ")
 target_length = int(input("What is your targeted length? "))
 nums = str(nums)
+
+if len(nums) < target_length:
+    zeroes = target_length - len(nums)
