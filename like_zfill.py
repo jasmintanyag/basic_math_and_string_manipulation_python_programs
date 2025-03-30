@@ -14,3 +14,5 @@ nums = str(nums)
 if len(nums) < target_length:
     zeroes = target_length - len(nums)
     nums = '0' * zeroes + nums
+
+print(nums)
