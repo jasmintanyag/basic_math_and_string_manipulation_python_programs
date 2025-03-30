@@ -17,3 +17,8 @@ for i in range(len(text) - len(substring), -1, -1):
     if text[1:1+len(substring)] == substring:
         index = i
         break
+
+if index == -1:
+    print("Substring not found :(")
+else:
+    print(index)
