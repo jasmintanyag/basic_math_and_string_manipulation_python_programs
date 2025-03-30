@@ -7,5 +7,6 @@
 # add the required zeroes at the beginning
 # print the modified string / result
 
-nums = input("Enter a number w/ spaces at beginning: ")
+nums = input("Enter a number(s): ")
 target_length = int(input("What is your targeted length? "))
+nums = str(nums)
