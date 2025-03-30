@@ -6,3 +6,6 @@
 # loop through string and count its occurences
 # check if substring matches, add 1 to count if matched
 # print the result
+
+text = input("Enter a text: ")
+substring = input("Enter the substring to count: ")
