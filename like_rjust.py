@@ -8,4 +8,4 @@ target_length = int(input("What is your targeted length? "))
 if len(text) < target_length:
     text = " " * (target_length - len(text)) + text
 # print the modified string / result
-print(text)
+print("Right-justified result:", text)
