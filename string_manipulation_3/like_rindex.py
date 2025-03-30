@@ -13,7 +13,7 @@ text = input("Enter a text: ")
 substring = input("Enter the substring to find: ")
 index = -1
 
-for i in range(len(text) - len(substring), -1, -1):
+for i in range(len(text) - len(substring) + 1, -1, -1):
     if text[1:1+len(substring)] == substring:
         index = i
         break
@@ -21,4 +21,4 @@ for i in range(len(text) - len(substring), -1, -1):
 if index == -1:
     print("Substring not found :(")
 else:
-    print(index)
+    print(index) 
