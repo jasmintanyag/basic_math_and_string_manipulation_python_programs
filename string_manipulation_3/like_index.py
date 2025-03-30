@@ -19,6 +19,6 @@ for i in range(len(text) - len(substring) + 1):
         break
 
 if index == -1:
-    print("Subsrtring not found.")
+    print("Subsrtring not found :(")
 else:
-    print(index)
+    print(f"'{substring}' first appered at index {index}.")
