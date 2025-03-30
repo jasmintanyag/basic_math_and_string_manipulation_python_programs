@@ -10,3 +10,5 @@
 text = input("Enter a text: ")
 substring = input("Enter the substring to count: ")
 counts = 0
+
+for i in range(len(text) - len(substring) + 1):
