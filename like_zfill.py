@@ -1,8 +1,11 @@
 # Prog07. zfill() add zero characters at the beginning of the string to complete the number of characters specifies in function parameter. Create a program that do the same functionality without using zfill() function.
 
-# ask user input numbers/string with spaces in beginning
-nums = input("Enter a number w/ spaces at beginning: ")
+# ask user input numbers/string
 # ask again for their targeted length
-target_length = int(input("What is your targeted length? "))
-# if the string entered is shorter than their targeted length, change the spaces into zeroes
+# make sure that the input is string
+# if the string entered is shorter than their targeted length, subtract the length of input from the targeted lenth
+# add the required zeroes at the beginning
 # print the modified string / result
+
+nums = input("Enter a number w/ spaces at beginning: ")
+target_length = int(input("What is your targeted length? "))
