@@ -14,3 +14,5 @@ counts = 0
 for i in range(len(text) - len(substring) + 1):
     if text[i:i+len(substring)] == substring:
         counts += 1
+
+print(counts)
