@@ -13,11 +13,7 @@ text = input("Enter a text: ")
 substring = input("Enter the substring to find: ")
 index = -1
 
-# PRINT INPUT VALUES for debugging
-print(f"Text: '{text}', Substring: '{substring}'")
-
 for i in range(len(text) - len(substring), -1, -1):
-    print(f"Checking index {i}: '{text[i:i+len(substring)]}'")  # Debugging line
     if text[i:i+len(substring)] == substring:
         index = i
         break
