@@ -20,3 +20,5 @@ for i in range(len(text) - len(substring) + 1):
 
 if index == -1:
     print("Subsrtring not found.")
+else:
+    print(index)
