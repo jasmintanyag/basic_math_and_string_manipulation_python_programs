@@ -8,3 +8,6 @@
 # store the index and stop the loop
 # if index is still -1, it means the substring was not found
 # else, print the result if found
+
+text = input("Enter a text: ")
+substring = input("Enter the substring to find: ")
