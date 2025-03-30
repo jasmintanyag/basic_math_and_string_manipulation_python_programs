@@ -11,3 +11,4 @@
 
 text = input("Enter a text: ")
 substring = input("Enter the substring to find: ")
+index = -1
