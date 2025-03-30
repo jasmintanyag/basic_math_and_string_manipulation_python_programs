@@ -14,3 +14,6 @@ substring = input("Enter the substring to find: ")
 index = -1
 
 for i in range(len(text) - len(substring), -1, -1):
+    if text[1:1+len(substring)] == substring:
+        index = i
+        break
