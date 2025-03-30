@@ -5,4 +5,6 @@ text = input("Enter a text: ")
 # ask again for their targeted length
 target_length = int(input("What is your targeted length? "))
 # if the string entered is shorter than their targeted length, add spaces to the left side
+if len(text) < target_length:
+    text = " " * (target_length - len(text)) + text
 # print the modified string / result
